@@ -28,6 +28,9 @@ def test_mini_project():
     # Click on Login Button
     driver.find_element(By.ID, "btn-login").click()
 
+    # Verify the change URL
+    assert driver.current_url == "https://katalon-demo-cura.herokuapp.com/#appointment"
+
     # Verify the "Make Appointment" Text
     verify_element = driver.find_element(By.XPATH, "//div/h2")
     assert verify_element.text == "Make Appointment"

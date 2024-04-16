@@ -52,5 +52,6 @@ def test_orangehrm_login():
     # assert verify_dashboard == "Dashboard"
 
     # Verify the Dashboard text present using Explicit Wait
-    verify_dashboard = WebDriverWait(driver, 3).until(EC.visibility_of_element_located((By.XPATH, "//h6[text()='Dashboard']"))).text
+    verify_dashboard = WebDriverWait(driver, 3).until(
+        EC.visibility_of_element_located((By.XPATH, "//h6[text()='Dashboard']"))).text
     assert verify_dashboard == "Dashboard"

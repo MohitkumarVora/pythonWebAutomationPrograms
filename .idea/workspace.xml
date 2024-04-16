@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="Add Unversioned Files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="create OrangeHRM Login script">
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/test_OrangeHRM.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/test_OrangeHRM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713187597936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create OrangeHRM Login script">
+      <option name="closed" value="true" />
+      <created>1713255615554</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713255615554</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +178,7 @@
     <MESSAGE value="Create mini project exercise" />
     <MESSAGE value="Add second URL assertion" />
     <MESSAGE value="Add Unversioned Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Unversioned Files" />
+    <MESSAGE value="create OrangeHRM Login script" />
+    <option name="LAST_COMMIT_MESSAGE" value="create OrangeHRM Login script" />
   </component>
 </project>

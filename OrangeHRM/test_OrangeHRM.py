@@ -10,10 +10,11 @@ def test_orangehrm_login():
     driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     driver.maximize_window()
 
+    # Add 5second wait for Login page to Load
     time.sleep(5)
 
     # Verify the Orange HRM Logo is Present
-    orangehrm_logo = driver.find_element(By.XPATH, "//img[@alt='company-branding']")
+    orangehrm_logo = driver.find_element(By.XPATH, "//img[@alt='company-branding']").is_displayed()
     assert orangehrm_logo
 
     # Get the Username
@@ -35,3 +36,10 @@ def test_orangehrm_login():
 
     # Verify the Change URL
     assert driver.current_url == "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+
+    # Add 3second wait for Dashboard page to Load
+    time.sleep(3)
+
+    # Verify that the Dashboard Text present
+    verify_dashboard = driver.find_element(By.XPATH, "//h6[text()='Dashboard']").text
+    assert verify_dashboard == "Dashboard"

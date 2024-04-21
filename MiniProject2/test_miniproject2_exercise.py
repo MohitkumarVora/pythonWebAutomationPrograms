@@ -21,10 +21,11 @@ def test_mini_project2():
     driver.find_element(By.ID, "frm-btn").click()
 
     # Verify the Free Trial expired text
-    verify_free_trial_text = WebDriverWait(driver,25).until(
+    verify_free_trial_text = WebDriverWait(driver, 25).until(
         EC.visibility_of_element_located((By.XPATH, "//h5[text()='Your free trial has expired']"))).text
     assert verify_free_trial_text == "Your free trial has expired"
 
     # Verify the current URL
     assert driver.current_url == "https://www.idrive360.com/enterprise/account?upgradenow=true"
+    time.sleep(5)
     allure.attach(driver.get_screenshot_as_png(), name="login-screenshot", attachment_type=AttachmentType.PNG)

@@ -4,8 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update the script by remove the static wait and add explicit wait">
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="Write MiniProject2 Exercise with Explicit Wait and Allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProject2/test_miniproject2_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject2/test_miniproject2_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/da703527ec5437ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +80,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_miniproject2_exercise.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_miniproject2_exercise.test_mini_project2">
     <configuration name="Temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
@@ -148,8 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_miniproject2_exercise.py" />
         <item itemvalue="Python tests.Python tests for test_miniproject2_exercise.test_mini_project2" />
+        <item itemvalue="Python tests.Python tests in test_miniproject2_exercise.py" />
         <item itemvalue="Python tests.Python tests in test_miniproject_exercise.py" />
         <item itemvalue="Python.Temp" />
         <item itemvalue="Python tests.Python tests for test_OrangeHRM.test_orangehrm_login" />
@@ -236,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713263166648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Write MiniProject2 Exercise with Explicit Wait and Allure">
+      <option name="closed" value="true" />
+      <created>1713681486311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713681486311</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Write MiniProject2 Exercise with Explicit Wait and Allure">
+      <option name="closed" value="true" />
+      <created>1713681510907</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713681510907</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +291,7 @@
     <MESSAGE value="Do some formatting" />
     <MESSAGE value="Add OrangeHRM Logo and Dashbaord text verification script" />
     <MESSAGE value="update the script by remove the static wait and add explicit wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the script by remove the static wait and add explicit wait" />
+    <MESSAGE value="Write MiniProject2 Exercise with Explicit Wait and Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write MiniProject2 Exercise with Explicit Wait and Allure" />
   </component>
 </project>

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="create OrangeHRM Login script">
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/test_OrangeHRM.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/test_OrangeHRM.py" afterDir="false" />
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update the script by remove the static wait and add explicit wait">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +23,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MohitkumarVora"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MohitkumarVora&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MohitkumarVora/pythonWebAutomationPrograms.git",
-    "accountId": "092ff1f0-229e-4878-b9a4-f223869b6451"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MohitkumarVora/pythonWebAutomationPrograms.git&quot;,
+    &quot;accountId&quot;: &quot;092ff1f0-229e-4878-b9a4-f223869b6451&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2f8NLUPxxYSHOBZY1t2xxI9jySe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -50,16 +50,43 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login.executor": "Run",
+    "Python tests.Python tests for test_OrangeHRM.test_orangehrm_login.executor": "Run",
+    "Python tests.Python tests for test_miniproject2_exercise.test_mini_project2.executor": "Run",
     "Python tests.Python tests for test_miniproject_exercise.test_mini_project.executor": "Run",
     "Python tests.Python tests in test_OrangeHRM.py.executor": "Run",
+    "Python tests.Python tests in test_miniproject2_exercise.py.executor": "Run",
+    "Python tests.Python tests in test_miniproject_exercise.py.executor": "Run",
+    "Python.Temp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Mohit/PycharmProjects/pythonWebAutomationPrograms",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login">
-    <configuration name="Python tests for test_OrangeHRM.test_OrangeHRM_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_miniproject2_exercise.py">
+    <configuration name="Temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonWebAutomationPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_OrangeHRM.test_orangehrm_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,11 +97,41 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_OrangeHRM.test_OrangeHRM_Login&quot;" />
+      <option name="_new_target" value="&quot;test_OrangeHRM.test_orangehrm_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_miniproject_exercise.test_mini_project" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_miniproject2_exercise.test_mini_project2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonWebAutomationPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_miniproject2_exercise.test_mini_project2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_miniproject2_exercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonWebAutomationPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject2/test_miniproject2_exercise.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_miniproject_exercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,30 +142,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_miniproject_exercise.test_mini_project&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_OrangeHRM.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonWebAutomationPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/OrangeHRM/test_OrangeHRM.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject/test_miniproject_exercise.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login" />
-        <item itemvalue="Python tests.Python tests in test_OrangeHRM.py" />
-        <item itemvalue="Python tests.Python tests for test_miniproject_exercise.test_mini_project" />
+        <item itemvalue="Python tests.Python tests in test_miniproject2_exercise.py" />
+        <item itemvalue="Python tests.Python tests for test_miniproject2_exercise.test_mini_project2" />
+        <item itemvalue="Python tests.Python tests in test_miniproject_exercise.py" />
+        <item itemvalue="Python.Temp" />
+        <item itemvalue="Python tests.Python tests for test_OrangeHRM.test_orangehrm_login" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +204,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713255615554</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Do some formatting">
+      <option name="closed" value="true" />
+      <created>1713255765424</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713255765424</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add OrangeHRM Logo and Dashbaord text verification script">
+      <option name="closed" value="true" />
+      <created>1713259610813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713259610813</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update the script by remove the static wait and add explicit wait">
+      <option name="closed" value="true" />
+      <created>1713263115738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713263115738</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update the script by remove the static wait and add explicit wait">
+      <option name="closed" value="true" />
+      <created>1713263166648</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713263166648</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +255,9 @@
     <MESSAGE value="Add second URL assertion" />
     <MESSAGE value="Add Unversioned Files" />
     <MESSAGE value="create OrangeHRM Login script" />
-    <option name="LAST_COMMIT_MESSAGE" value="create OrangeHRM Login script" />
+    <MESSAGE value="Do some formatting" />
+    <MESSAGE value="Add OrangeHRM Logo and Dashbaord text verification script" />
+    <MESSAGE value="update the script by remove the static wait and add explicit wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the script by remove the static wait and add explicit wait" />
   </component>
 </project>

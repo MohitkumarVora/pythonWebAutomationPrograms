@@ -4,10 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update miniproject2">
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update the script with adding given task Scenario.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniProject/test_miniproject_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject1/test_miniproject_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniProject2/test_miniproject2_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject2/test_miniproject2_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProject1/test_miniproject1_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject1/test_miniproject1_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,58 +86,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_OrangeHRM.test_orangehrm_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_miniproject2_exercise.test_mini_project2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_miniproject_exercise.test_mini_project.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_OrangeHRM.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_miniproject2_exercise.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_miniproject_exercise.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Temp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohit/PycharmProjects/pythonWebAutomationPrograms&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for Temp.test_mini_project03.executor": "Run",
+    "Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login.executor": "Run",
+    "Python tests.Python tests for test_OrangeHRM.test_orangehrm_login.executor": "Run",
+    "Python tests.Python tests for test_miniproject2_exercise.test_mini_project2.executor": "Run",
+    "Python tests.Python tests for test_miniproject3_exercise.test_miniproject3.executor": "Run",
+    "Python tests.Python tests for test_miniproject_exercise.test_mini_project.executor": "Run",
+    "Python tests.Python tests in test_OrangeHRM.py.executor": "Run",
+    "Python tests.Python tests in test_miniproject2_exercise.py.executor": "Run",
+    "Python tests.Python tests in test_miniproject3_exercise.py.executor": "Run",
+    "Python tests.Python tests in test_miniproject_exercise.py.executor": "Run",
+    "Python.Temp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Mohit/PycharmProjects/pythonWebAutomationPrograms",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_miniproject2_exercise.test_mini_project2">
-    <configuration name="Temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3">
+    <configuration name="Python tests for Temp.test_mini_project03" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_OrangeHRM.test_orangehrm_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonWebAutomationPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_OrangeHRM.test_orangehrm_login&quot;" />
+      <option name="_new_target" value="&quot;Temp.test_mini_project03&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -118,19 +137,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_miniproject1_exercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_miniproject3_exercise.test_miniproject3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject1/test_miniproject1_exercise.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_miniproject3_exercise.test_miniproject3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_miniproject2_exercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -148,13 +167,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_miniproject3_exercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonWebAutomationPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject3/test_miniproject3_exercise.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3" />
+        <item itemvalue="Python tests.Python tests in test_miniproject3_exercise.py" />
+        <item itemvalue="Python tests.Python tests for Temp.test_mini_project03" />
         <item itemvalue="Python tests.Python tests for test_miniproject2_exercise.test_mini_project2" />
         <item itemvalue="Python tests.Python tests in test_miniproject2_exercise.py" />
-        <item itemvalue="Python tests.Python tests in test_miniproject1_exercise.py" />
-        <item itemvalue="Python.Temp" />
-        <item itemvalue="Python tests.Python tests for test_OrangeHRM.test_orangehrm_login" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713681882429</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update the script with adding given task Scenario.">
+      <option name="closed" value="true" />
+      <created>1713938532153</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713938532153</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +328,7 @@
     <MESSAGE value="update the script by remove the static wait and add explicit wait" />
     <MESSAGE value="Write MiniProject2 Exercise with Explicit Wait and Allure" />
     <MESSAGE value="update miniproject2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update miniproject2" />
+    <MESSAGE value="update the script with adding given task Scenario." />
+    <option name="LAST_COMMIT_MESSAGE" value="update the script with adding given task Scenario." />
   </component>
 </project>

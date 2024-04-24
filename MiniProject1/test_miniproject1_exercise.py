@@ -15,7 +15,7 @@ from selenium.webdriver.common.by import By
 import time
 
 
-def test_mini_project():
+def test_mini_project1():
     driver = webdriver.Chrome()
     driver.get("https://katalon-demo-cura.herokuapp.com/")
     driver.maximize_window()

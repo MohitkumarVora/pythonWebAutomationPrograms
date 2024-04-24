@@ -1,4 +1,13 @@
-import time
+# Selenium Mini Project #2
+#
+#     Open the URL - https://www.idrive360.com/enterprise/login
+#     Enter the username, password
+#     Verify that Trial is finished and current URL also
+#     Add a logic to add Allure Screen for the Trail end.
+
+ # Username : augtest_040823@idrive.com
+ # Password : 123456
+
 import allure
 import pytest
 from allure_commons.types import AttachmentType
@@ -27,5 +36,4 @@ def test_mini_project2():
 
     # Verify the current URL
     assert driver.current_url == "https://www.idrive360.com/enterprise/account?upgradenow=true"
-    time.sleep(5)
     allure.attach(driver.get_screenshot_as_png(), name="login-screenshot", attachment_type=AttachmentType.PNG)

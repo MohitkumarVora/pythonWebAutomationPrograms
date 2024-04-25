@@ -30,6 +30,7 @@ def test_miniproject3():
     driver.find_element(By.TAG_NAME, "button").click()
     time.sleep(2)
 
-    username_validation = driver.find_element(By.XPATH, "//small[normalize-space()='Username must be at least 3 characters']").text
+    # username_validation = driver.find_element(By.XPATH, "//small[normalize-space()='Username must be at least 3 characters']").text
+    username_validation = driver.find_element(By.XPATH, "//div[@class='form-control error']/child::small[normalize-space()='Username must be at least 3 characters']").text
     assert username_validation == "Username must be at least 3 characters"
     allure.attach(driver.get_screenshot_as_png(), name="empty-username", attachment_type=AttachmentType.PNG)

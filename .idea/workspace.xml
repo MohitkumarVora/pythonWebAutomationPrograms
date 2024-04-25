@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update the script with adding given task Scenario.">
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="Write miniproject4 script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProject4/test_miniproject4_excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject4/test_miniproject4_excercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713938532153</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Write miniproject4 script">
+      <option name="closed" value="true" />
+      <created>1714028022979</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714028022979</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +305,7 @@
     <MESSAGE value="Write MiniProject2 Exercise with Explicit Wait and Allure" />
     <MESSAGE value="update miniproject2" />
     <MESSAGE value="update the script with adding given task Scenario." />
-    <option name="LAST_COMMIT_MESSAGE" value="update the script with adding given task Scenario." />
+    <MESSAGE value="Write miniproject4 script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write miniproject4 script" />
   </component>
 </project>

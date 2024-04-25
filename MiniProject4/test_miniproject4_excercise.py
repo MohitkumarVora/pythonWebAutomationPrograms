@@ -31,7 +31,7 @@ def test_miniproject4():
         item_name = get_all_item_title.text
         print(index, "-", item_name)
 
-    # Get the ITEM Price
+    # Get the ITEM Prices
     list_of_item_price = driver.find_elements(By.XPATH, "//span[@class='s-item__price']")
     prizes = []
     # For loop will fetch all the top 60 Item price

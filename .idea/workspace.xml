@@ -6,46 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update the script with adding given task Scenario.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniProject1/test_miniproject1_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject1/test_miniproject1_exercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugin/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugin/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugin/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugin/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +36,9 @@
     &quot;accountId&quot;: &quot;092ff1f0-229e-4878-b9a4-f223869b6451&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -89,15 +53,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for Temp.Test_loginpage.test_open_login.executor": "Run",
+    "Python tests.Python tests for Temp.test_ebay_function.executor": "Run",
     "Python tests.Python tests for Temp.test_mini_project03.executor": "Run",
     "Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login.executor": "Run",
     "Python tests.Python tests for test_OrangeHRM.test_orangehrm_login.executor": "Run",
     "Python tests.Python tests for test_miniproject2_exercise.test_mini_project2.executor": "Run",
     "Python tests.Python tests for test_miniproject3_exercise.test_miniproject3.executor": "Run",
+    "Python tests.Python tests for test_miniproject4_excercise.test_miniproject4.executor": "Run",
     "Python tests.Python tests for test_miniproject_exercise.test_mini_project.executor": "Run",
     "Python tests.Python tests in test_OrangeHRM.py.executor": "Run",
     "Python tests.Python tests in test_miniproject2_exercise.py.executor": "Run",
     "Python tests.Python tests in test_miniproject3_exercise.py.executor": "Run",
+    "Python tests.Python tests in test_miniproject4_excercise.py.executor": "Run",
     "Python tests.Python tests in test_miniproject_exercise.py.executor": "Run",
     "Python.Temp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -106,8 +74,8 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3">
-    <configuration name="Python tests for Temp.test_mini_project03" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_miniproject4_excercise.test_miniproject4">
+    <configuration name="Python tests for Temp.Test_loginpage.test_open_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,22 +86,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Temp.test_mini_project03&quot;" />
+      <option name="_new_target" value="&quot;Temp.Test_loginpage.test_open_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_miniproject2_exercise.test_mini_project2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for Temp.test_ebay_function" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_miniproject2_exercise.test_mini_project2&quot;" />
+      <option name="_new_target" value="&quot;Temp.test_ebay_function&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -152,43 +120,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_miniproject2_exercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_miniproject4_excercise.test_miniproject4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject2/test_miniproject2_exercise.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_miniproject4_excercise.test_miniproject4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_miniproject3_exercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_miniproject4_excercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject3/test_miniproject3_exercise.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject4/test_miniproject4_excercise.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_miniproject4_excercise.test_miniproject4" />
+        <item itemvalue="Python tests.Python tests in test_miniproject4_excercise.py" />
+        <item itemvalue="Python tests.Python tests for Temp.Test_loginpage.test_open_login" />
+        <item itemvalue="Python tests.Python tests for Temp.test_ebay_function" />
         <item itemvalue="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3" />
-        <item itemvalue="Python tests.Python tests in test_miniproject3_exercise.py" />
-        <item itemvalue="Python tests.Python tests for Temp.test_mini_project03" />
-        <item itemvalue="Python tests.Python tests for test_miniproject2_exercise.test_mini_project2" />
-        <item itemvalue="Python tests.Python tests in test_miniproject2_exercise.py" />
       </list>
     </recent_temporary>
   </component>

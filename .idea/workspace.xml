@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update miniproject4 script">
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="Update validation error locator using axes method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniProject3/test_miniproject3_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject3/test_miniproject3_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProject4/test_miniproject4_excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject4/test_miniproject4_excercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Python tests.Python tests for Temp.Test_loginpage.test_open_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Temp.test_action_chain_method.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for Temp.test_ebay_function.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for Temp.test_mini_project03.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login.executor&quot;: &quot;Run&quot;,
@@ -62,6 +63,7 @@
     &quot;Python tests.Python tests for test_miniproject3_exercise.test_miniproject3.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_miniproject4_excercise.test_miniproject4.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_miniproject_exercise.test_mini_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Temp.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_OrangeHRM.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_miniproject2_exercise.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_miniproject3_exercise.py.executor&quot;: &quot;Run&quot;,
@@ -74,8 +76,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3">
-    <configuration name="Python tests for Temp.Test_loginpage.test_open_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohit\PycharmProjects\pythonWebAutomationPrograms" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in Temp.py">
+    <configuration name="Python tests for Temp.test_action_chain_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,22 +93,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Temp.Test_loginpage.test_open_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for Temp.test_ebay_function" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonWebAutomationPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Temp.test_ebay_function&quot;" />
+      <option name="_new_target" value="&quot;Temp.test_action_chain_method&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -135,6 +127,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in Temp.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonWebAutomationPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Temp.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_miniproject4_excercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
@@ -152,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3" />
-        <item itemvalue="Python tests.Python tests for test_miniproject4_excercise.test_miniproject4" />
+        <item itemvalue="Python tests.Python tests for Temp.test_action_chain_method" />
+        <item itemvalue="Python tests.Python tests in Temp.py" />
         <item itemvalue="Python tests.Python tests in test_miniproject4_excercise.py" />
-        <item itemvalue="Python tests.Python tests for Temp.Test_loginpage.test_open_login" />
-        <item itemvalue="Python tests.Python tests for Temp.test_ebay_function" />
+        <item itemvalue="Python tests.Python tests for test_miniproject4_excercise.test_miniproject4" />
+        <item itemvalue="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714039104171</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update validation error locator using axes method">
+      <option name="closed" value="true" />
+      <created>1714072368840</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714072368840</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +330,7 @@
     <MESSAGE value="update the script with adding given task Scenario." />
     <MESSAGE value="Write miniproject4 script" />
     <MESSAGE value="update miniproject4 script" />
-    <option name="LAST_COMMIT_MESSAGE" value="update miniproject4 script" />
+    <MESSAGE value="Update validation error locator using axes method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update validation error locator using axes method" />
   </component>
 </project>

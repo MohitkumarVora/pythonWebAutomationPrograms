@@ -5,8 +5,8 @@
 #     Verify that Trial is finished and current URL also
 #     Add a logic to add Allure Screen for the Trail end.
 
- # Username : augtest_040823@idrive.com
- # Password : 123456
+# Username : augtest_040823@idrive.com
+# Password : 123456
 
 import allure
 import pytest

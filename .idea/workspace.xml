@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="remove extra space from comment">
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="Add mini project 6 excercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/test_OrangeHRM.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/test_OrangeHRM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716183838040</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add mini project 6 excercise">
+      <option name="closed" value="true" />
+      <created>1716361094936</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716361094936</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,6 +359,7 @@
     <MESSAGE value="Update validation error locator using axes method" />
     <MESSAGE value="update the comment text for better understanding" />
     <MESSAGE value="remove extra space from comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove extra space from comment" />
+    <MESSAGE value="Add mini project 6 excercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mini project 6 excercise" />
   </component>
 </project>

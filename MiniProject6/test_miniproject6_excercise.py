@@ -9,7 +9,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 
 
 def test_miniproject6():
@@ -20,7 +20,7 @@ def test_miniproject6():
 
     # Verify the OrangeHRM Logo is present using Explicit Wait
     orangehrm_logo = WebDriverWait(driver, 5).until(
-        EC.presence_of_element_located((By.XPATH, "//img[@alt='company-branding']")))
+        ec.presence_of_element_located((By.XPATH, "//img[@alt='company-branding']")))
     assert orangehrm_logo
 
     # Get the Username
@@ -73,11 +73,12 @@ def test_miniproject6():
     print(username)
     input_username.send_keys(username)
 
-    driver.find_element(By.XPATH,
-                        "//label[text()='Password']/parent::div/following-sibling::div/input").send_keys("Monty@123")
+    (driver.find_element(By.XPATH,
+                         "//label[text()='Password']/parent::div/following-sibling::div/input")
+     .send_keys("Monty@123"))
 
-    driver.find_element(By.XPATH,
-                        "//label[text()='Confirm Password']/parent::div/following-sibling::div/input").send_keys("Monty@123")
+    (driver.find_element(By.XPATH, "//label[text()='Confirm Password']/parent::div/following-sibling::div/input")
+     .send_keys("Monty@123"))
 
     save_btn = driver.find_element(By.XPATH, "//button[@type='submit']")
     save_btn.click()
@@ -85,7 +86,8 @@ def test_miniproject6():
 
     # <------------------------ Search for newly added user profile phase----------------------->
 
-    driver.find_element(By.XPATH, "//label[text()='Username']/parent::div/following-sibling::div/input").send_keys(username)
+    driver.find_element(By.XPATH,
+                        "//label[text()='Username']/parent::div/following-sibling::div/input").send_keys(username)
 
     driver.find_element(By.XPATH, "//button[text()=' Search ']").click()
 

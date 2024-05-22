@@ -12,6 +12,7 @@ def test_orangehrm_login():
     driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     driver.maximize_window()
 
+
     # Add 5second wait for Login page to Load
     # time.sleep(5)
     #

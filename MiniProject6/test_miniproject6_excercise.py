@@ -55,41 +55,51 @@ def test_miniproject6():
     # Verify the Current URL
     assert driver.current_url == "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser"
 
-    # Enter user role, employee name, status, username and passwords. click on save.
+    # <-------------- Create User form fill-up ---------------------->
+
+    # Select the user role from dropdown
     driver.find_element(By.XPATH, "//label[text()='User Role']/parent::div/following-sibling::div//i").click()
     driver.find_element(By.XPATH, "//div[@role='listbox']//span[text()='Admin']").click()
 
+    # Select status from dropdown
     driver.find_element(By.XPATH, "//label[text()='Status']/parent::div/following-sibling::div//i").click()
     driver.find_element(By.XPATH, "(//div[@role='listbox']//child::div)[2]").click()
 
+    # Enter Employee name and select from the suggestion list
     employee_name = driver.find_element(By.XPATH, "//input[@placeholder='Type for hints...']")
     employee_name.send_keys("James")
     time.sleep(10)
     driver.find_element(By.XPATH, "(//div[@role='listbox']//child::div)[1]").click()
 
+    # Enter the Username
     input_username = driver.find_element(By.XPATH,
                                          "//label[text()='Username']/parent::div/following-sibling::div/input")
     username = "Monty" + str(random.randint(1000, 9999))
     print(username)
     input_username.send_keys(username)
 
-    (driver.find_element(By.XPATH,
-                         "//label[text()='Password']/parent::div/following-sibling::div/input")
+    # Enter Password
+    (driver.find_element(By.XPATH, "//label[text()='Password']/parent::div/following-sibling::div/input")
      .send_keys("Monty@123"))
 
+    # Enter Confirm Password
     (driver.find_element(By.XPATH, "//label[text()='Confirm Password']/parent::div/following-sibling::div/input")
      .send_keys("Monty@123"))
 
+    # Click on Save button
     save_btn = driver.find_element(By.XPATH, "//button[@type='submit']")
     save_btn.click()
     time.sleep(5)
 
     # <------------------------ Search for newly added user profile phase----------------------->
 
+    # Enter Username in Admin search section
     driver.find_element(By.XPATH,
                         "//label[text()='Username']/parent::div/following-sibling::div/input").send_keys(username)
 
+    # Click on search button
     driver.find_element(By.XPATH, "//button[text()=' Search ']").click()
 
+    # Verify the Enter username in search is present in the User list
     username_column = driver.find_element(By.XPATH, f"//div[contains(text(),'{username}')]").text
     assert username_column == username

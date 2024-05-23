@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="Add mini project 6 excercise">
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update the warning script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProject6/test_miniproject6_excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject6/test_miniproject6_excercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716361094936</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update the warning script">
+      <option name="closed" value="true" />
+      <created>1716370994979</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716370994979</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +369,7 @@
     <MESSAGE value="update the comment text for better understanding" />
     <MESSAGE value="remove extra space from comment" />
     <MESSAGE value="Add mini project 6 excercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mini project 6 excercise" />
+    <MESSAGE value="update the warning script" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the warning script" />
   </component>
 </project>

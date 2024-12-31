@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="update the warning script">
+    <list default="true" id="1fcf4fa7-c406-4008-9697-0d7e1783f653" name="Changes" comment="Add Comment for the all remaining script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniProject6/test_miniproject6_excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProject6/test_miniproject6_excercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     &quot;Python tests.Python tests for Temp.test_open_OrangeHRM.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_OrangeHRM.test_OrangeHRM_Login.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_OrangeHRM.test_orangehrm_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_miniproject1_exercise.test_mini_project1.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_miniproject2_exercise.test_mini_project2.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_miniproject3_exercise.test_miniproject3.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_miniproject4_excercise.test_miniproject4.executor&quot;: &quot;Run&quot;,
@@ -74,6 +74,7 @@
     &quot;Python tests.Python tests in test_miniproject_exercise.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.Temp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohit/PycharmProjects/pythonWebAutomationPrograms&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
@@ -85,33 +86,63 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for test_miniproject6_excercise.test_miniproject6">
-    <configuration name="Python tests for Temp.test_action_chain_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_miniproject1_exercise.test_mini_project1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Temp.test_action_chain_method&quot;" />
+      <option name="_new_target" value="&quot;test_miniproject1_exercise.test_mini_project1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Temp.test_open_OrangeHRM" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_miniproject2_exercise.test_mini_project2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonWebAutomationPrograms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Temp.test_open_OrangeHRM&quot;" />
+      <option name="_new_target" value="&quot;test_miniproject2_exercise.test_mini_project2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_miniproject3_exercise.test_miniproject3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonWebAutomationPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_miniproject3_exercise.test_miniproject3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_miniproject4_excercise.test_miniproject4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonWebAutomationPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_miniproject4_excercise.test_miniproject4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -130,50 +161,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in Temp.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonWebAutomationPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Temp.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_miniproject6_excercise.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonWebAutomationPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniProject6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/MiniProject6/test_miniproject6_excercise.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_miniproject6_excercise.test_miniproject6" />
-        <item itemvalue="Python tests.Python tests in test_miniproject6_excercise.py" />
-        <item itemvalue="Python tests.Python tests for Temp.test_open_OrangeHRM" />
-        <item itemvalue="Python tests.Python tests for Temp.test_action_chain_method" />
-        <item itemvalue="Python tests.Python tests in Temp.py" />
+        <item itemvalue="Python tests.Python tests for test_miniproject4_excercise.test_miniproject4" />
+        <item itemvalue="Python tests.Python tests for test_miniproject3_exercise.test_miniproject3" />
+        <item itemvalue="Python tests.Python tests for test_miniproject2_exercise.test_mini_project2" />
+        <item itemvalue="Python tests.Python tests for test_miniproject1_exercise.test_mini_project1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
       </set>
     </attachedChunks>
   </component>
@@ -338,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716370994979</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add Comment for the all remaining script">
+      <option name="closed" value="true" />
+      <created>1716444003007</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716444003007</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,6 +379,7 @@
     <MESSAGE value="remove extra space from comment" />
     <MESSAGE value="Add mini project 6 excercise" />
     <MESSAGE value="update the warning script" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the warning script" />
+    <MESSAGE value="Add Comment for the all remaining script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Comment for the all remaining script" />
   </component>
 </project>
